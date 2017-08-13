@@ -3,3 +3,16 @@
 	min-height: 800px;
 	margin-bottom: 20px;
 }
+
+.img-main-carousel{
+	height: 500px;
+	margin:0 auto;
+}
+
+.carousel-control.right, .carousel-control.left{
+	cursor: pointer;
+}
+
+.search-inline .navbar-left{
+	float: none !important; 
+}

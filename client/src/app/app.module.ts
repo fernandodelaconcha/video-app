@@ -5,12 +5,16 @@ import { HttpModule } from '@angular/http';
 
 //third party imports
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing';
+import { HomeComponent } from './home/home.component';
+import { SafePipe } from './utility/safe.pipe';
+import { SearchComponent } from './search/search.component';
+import { SearchDetailComponent } from './search-detail/search-detail.component';
 import { VideoListComponent } from './video-list/video-list.component';
 import { VideoDetailComponent } from './video-detail/video-detail.component';
-import { SafePipe } from './utility/safe.pipe';
 
 
 @NgModule({
@@ -18,7 +22,10 @@ import { SafePipe } from './utility/safe.pipe';
     AppComponent,
     VideoListComponent,
     VideoDetailComponent,
-    SafePipe
+    SafePipe,
+    HomeComponent,
+    SearchComponent,
+    SearchDetailComponent
   ],
   imports: [
     BrowserModule,
@@ -26,6 +33,7 @@ import { SafePipe } from './utility/safe.pipe';
     HttpModule,
     AppRoutingModule,
     BsDropdownModule.forRoot(),
+    CarouselModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]
