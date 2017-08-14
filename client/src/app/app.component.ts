@@ -7,7 +7,7 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit{
-  title = 'Hello srvup 2!';
+  title = 'Hello world!';
   description = 'A new app';
   query: string;
   private routeSub:any;

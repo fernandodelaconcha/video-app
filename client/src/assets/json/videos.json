@@ -1,22 +1,42 @@
 [
         {
-         "name": "Item 1",
+         "name": "Tiled Roof Hut",
          "slug": "item-1",
-         "embed": "1hyjLD7pk10",
+         "embed": "P73REgj-3UE",
          "image": "assets/images/nature/1.jpg",
          "featured":true
         },
         {
-         "name": "Item 2",
+         "name": "Building A Survival Shelter",
          "slug": "item-2",
-         "embed": "1hyjLD7pk10",
+         "embed": "_a1FU_ncz48",
          "image": "assets/images/nature/2.jpg",
          "featured":true
         },
         {
-         "name": "Item 3",
+         "name": "A Tour of Lake Michigan",
          "slug": "item-3",
          "embed": null,
          "image": "assets/images/nature/3.jpg"
+        },
+        {
+         "name": "Bow and Arrow Made From Bamboo",
+         "slug": "item-4",
+         "embed": "NmWP07N6fdE",
+         "image": "assets/images/nature/4.jpg",
+         "featured":true
+        },
+        {
+         "name": "Building A Basic Campfire",
+         "slug": "item-5",
+         "embed": "syJcR-Shvxw",
+         "image": "assets/images/nature/6.jpg",
+         "featured":true
+        },{
+         "name": "Yosemite Park Travel Guide",
+         "slug": "item-6",
+         "embed": "9fJEFi3ccwI",
+         "image": "assets/images/nature/7.jpg",
+         "featured":true
         }
     ]

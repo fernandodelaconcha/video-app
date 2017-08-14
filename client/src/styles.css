@@ -1,4 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+html body{
+	background-color:  #666666;
+	color: orange;
+}
+
 .main.container{
 	min-height: 800px;
 	margin-bottom: 20px;
@@ -16,3 +21,25 @@
 .search-inline .navbar-left{
 	float: none !important; 
 }
+
+.img-center {
+	margin: 0 auto;
+}
+
+.video-list .thumbnail{
+	background-color: #b3b3b3;
+}
+
+.video-list a{
+	color: #ff8000;
+}
+
+.video-list img{
+	height: 250px !important;
+	width: 100%;
+}
+footer a{
+	text-decoration: none;
+	color:#cc8500;
+}
+
